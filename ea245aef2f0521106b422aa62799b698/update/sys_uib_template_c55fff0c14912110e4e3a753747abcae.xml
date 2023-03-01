@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_template">
+    <sys_uib_template action="INSERT_OR_UPDATE">
+        <associated_types>f198e5625311101017caddeeff7b120d,d5d732935301101017caddeeff7b12b3</associated_types>
+        <image display_value="ui-builder-templates-right-sidebar.svg">89ff424877311010d99bbc3f6810614e</image>
+        <label>Portal Main Content with Right Rail</label>
+        <macroponent display_value="Fixed Width Two-One">815fff0c8d9121100fc46bdb9c183aae</macroponent>
+        <order>0</order>
+        <sys_class_name>sys_uib_template</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-24 09:59:28</sys_created_on>
+        <sys_id>c55fff0c14912110e4e3a753747abcae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Main Content with Right Rail</sys_name>
+        <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
+        <sys_update_name>sys_uib_template_c55fff0c14912110e4e3a753747abcae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-24 09:59:28</sys_updated_on>
+    </sys_uib_template>
+</record_update>

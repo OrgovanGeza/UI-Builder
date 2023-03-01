@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="navigation">d46f400473211010c342d5fdbdf6a7cf</declarative_action_assignment>
+        <predicate display_value="My Request - task predicate">455fff0c85912110703586bca84ab0a4</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-24 09:59:33</sys_created_on>
+        <sys_id>c55fff0c2291211090d58cfe0b88c5a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_c55fff0c2291211090d58cfe0b88c5a1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-24 09:59:33</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

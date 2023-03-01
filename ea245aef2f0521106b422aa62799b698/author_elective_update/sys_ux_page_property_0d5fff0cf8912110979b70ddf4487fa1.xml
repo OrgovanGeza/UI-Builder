@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="">815fff0cb4912110629a9aa99cc1729f</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-24 09:59:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>0d5fff0cf8912110979b70ddf4487fa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
+        <sys_update_name>sys_ux_page_property_0d5fff0cf8912110979b70ddf4487fa1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-24 09:59:29</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_726438_weekly_0.815fff0cb4912110629a9aa99cc1729f.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</application>
+        <file_path/>
+        <instance_id>ab47b99adb2e881052cec597059619dc</instance_id>
+        <instance_name>dev97812</instance_name>
+        <name>sys_ux_page_property_0d5fff0cf8912110979b70ddf4487fa1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>global_search_configurations</name><page display_value="">815fff0cb4912110629a9aa99cc1729f</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-02-24 09:59:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>0d5fff0cf8912110979b70ddf4487fa1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package><sys_policy/><sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope><sys_update_name>sys_ux_page_property_0d5fff0cf8912110979b70ddf4487fa1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-24 09:59:29</sys_updated_on><type>json</type><unique_name>x_726438_weekly_0.815fff0cb4912110629a9aa99cc1729f.root.global_search_configurations</unique_name><value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-15050773</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>697d2a022f0121106b422aa62799b6f9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-17 22:53:53</sys_created_on>
+        <sys_id>db3001392f9161106b422aa62799b665</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18661957fe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>9b3001390b9161108cf5920183dc9865</update_guid>
+        <update_guid_history>9b3001390b9161108cf5920183dc9865:-15050773</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 06:33:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>919a5a5c7ce24ff688967fb868508e24</sys_id>
+        <sys_metadata>0d5fff0cf8912110979b70ddf4487fa1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
+        <sys_scope_delete display_value="">01f4e2d7dff8422e82c6f5672cc04d04</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_0d5fff0cf8912110979b70ddf4487fa1</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_0d5fff0cf8912110979b70ddf4487fa1">db3001392f9161106b422aa62799b665</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 06:33:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">815fff0cb4912110629a9aa99cc1729f</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">055fff0c4e912110e08f379ca1fcfeab</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-24 09:59:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>895fff0c0f912110dce278cca8beb7a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
+        <sys_update_name>sys_ux_page_property_895fff0c0f912110dce278cca8beb7a1</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-24 09:59:34</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_726438_weekly_0.815fff0cb4912110629a9aa99cc1729f.route.chrome_header.055fff0c4e912110e08f379ca1fcfeab</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</application>
+        <file_path/>
+        <instance_id>ab47b99adb2e881052cec597059619dc</instance_id>
+        <instance_name>dev97812</instance_name>
+        <name>sys_ux_page_property_895fff0c0f912110dce278cca8beb7a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">815fff0cb4912110629a9aa99cc1729f</page><required_translations>[]</required_translations><route display_value="Login">055fff0c4e912110e08f379ca1fcfeab</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-02-24 09:59:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>895fff0c0f912110dce278cca8beb7a1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package><sys_policy/><sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope><sys_update_name>sys_ux_page_property_895fff0c0f912110dce278cca8beb7a1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-24 09:59:34</sys_updated_on><type>json</type><unique_name>x_726438_weekly_0.815fff0cb4912110629a9aa99cc1729f.route.chrome_header.055fff0c4e912110e08f379ca1fcfeab</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>260421993</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>697d2a022f0121106b422aa62799b6f9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-17 22:53:53</sys_created_on>
+        <sys_id>233001392f9161106b422aa62799b686</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18661957fe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>ef3001396f91611003c9f7976bfa7985</update_guid>
+        <update_guid_history>ef3001396f91611003c9f7976bfa7985:260421993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-01 06:33:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>31330d905c2b4d48bc55708aeda18661</sys_id>
+        <sys_metadata>895fff0c0f912110dce278cca8beb7a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
+        <sys_scope_delete display_value="">01f4e2d7dff8422e82c6f5672cc04d04</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_895fff0c0f912110dce278cca8beb7a1</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_895fff0c0f912110dce278cca8beb7a1">233001392f9161106b422aa62799b686</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-01 06:33:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

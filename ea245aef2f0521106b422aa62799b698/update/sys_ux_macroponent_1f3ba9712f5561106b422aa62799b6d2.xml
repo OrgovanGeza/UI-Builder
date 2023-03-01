@@ -51,48 +51,166 @@
       },
       "overrides" : {
         "composition" : [ {
-          "elementId" : "stylized_text_1",
-          "elementLabel" : "Stylized text 1",
+          "elementId" : "container_3",
+          "elementLabel" : "Container 3",
           "propertyValues" : {
-            "text" : {
-              "type" : "REPEATER_ITEM_BINDING",
-              "binding" : {
-                "address" : [ "name", "displayValue" ],
-                "category" : "value"
+            "ariaRegionName" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "",
+                "comment" : ""
               }
             },
-            "tag" : {
+            "includeAriaHeading" : {
               "type" : "JSON_LITERAL",
-              "value" : "h3"
+              "value" : false
             },
-            "css" : {
+            "ariaRegionHeadingLevel" : {
               "type" : "JSON_LITERAL",
-              "value" : "* { }"
+              "value" : "1"
+            },
+            "type" : {
+              "type" : "JSON_LITERAL",
+              "value" : "section"
+            },
+            "ariaRole" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
             }
           },
           "eventMappings" : [ ],
           "slot" : null,
           "definition" : {
-            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "id" : "d356d14b6e293a3020a244b63d278d8f",
             "type" : "MACROPONENT"
           },
-          "overrides" : null,
+          "overrides" : {
+            "composition" : [ {
+              "elementId" : "checkbox_1",
+              "elementLabel" : "Checkbox 1",
+              "propertyValues" : {
+                "label" : {
+                  "type" : "TRANSLATION_LITERAL",
+                  "value" : {
+                    "code" : null,
+                    "message" : "",
+                    "comment" : ""
+                  }
+                },
+                "checked" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "invalid" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "readonly" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : false
+                },
+                "name" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : null
+                },
+                "configAria" : {
+                  "type" : "MAP_CONTAINER",
+                  "container" : { }
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "b5ef11d7766e63aea1a8113e8360b276",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "isNonDestructive" : false,
+              "styles" : { }
+            }, {
+              "elementId" : "stylized_text_1",
+              "elementLabel" : "Stylized text 1",
+              "propertyValues" : {
+                "text" : {
+                  "type" : "REPEATER_ITEM_BINDING",
+                  "binding" : {
+                    "address" : [ "name", "value" ],
+                    "category" : "value"
+                  }
+                },
+                "tag" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "h3"
+                },
+                "css" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "* { }"
+                }
+              },
+              "eventMappings" : [ ],
+              "slot" : null,
+              "definition" : {
+                "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                "type" : "MACROPONENT"
+              },
+              "overrides" : null,
+              "isHidden" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "isHero" : false,
+              "isNonDestructive" : false,
+              "styles" : { }
+            } ],
+            "layout" : {
+              "default" : {
+                "children" : null,
+                "isInline" : null,
+                "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"checkbox_1","styles":{}}],
+                "root" : null,
+                "rules" : null,
+                "styles" : {"flex-direction":"row","align-items":"center","justify-content":"space-around","margin":"var(--now-static-space--xs)"},
+                "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                "type" : "flex"
+              },
+              "version" : "3.0.0"
+            }
+          },
           "isHidden" : {
             "type" : "JSON_LITERAL",
             "value" : null
           },
           "isHero" : false,
           "isNonDestructive" : false,
-          "styles" : { }
+          "styles" : {
+            "width" : "100%",
+            "border-color" : "#FC0AE8",
+            "border-width" : "var(--now-static-space--xxs)",
+            "border-style" : "solid"
+          }
         } ],
         "layout" : {
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"stylized_text_1","styles":{}}],
+            "items" : [{"element_id":"container_3","styles":{}}],
             "root" : null,
             "rules" : null,
-            "styles" : {"flex-direction":"column","display":"grid","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-rows":"1fr","grid-auto-rows":"1fr","grid-auto-columns":"1fr","grid-auto-flow":"column","justify-items":"center","padding":"var(--now-static-space--sm)"},
+            "styles" : {"flex-direction":"column","display":"grid","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-rows":"1fr","grid-auto-rows":"1fr","grid-auto-columns":"1fr","grid-auto-flow":"row","justify-items":"center","padding":"var(--now-static-space--sm)","margin":"var(--now-static-space--xs)"},
             "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
             "type" : "grid"
           },
@@ -136,6 +254,104 @@
   "styles" : {
     "width" : "100%"
   }
+}, {
+  "elementId" : "textarea_1",
+  "elementLabel" : "Textarea 1",
+  "propertyValues" : {
+    "label" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "asd" ],
+        "category" : "props"
+      }
+    },
+    "value" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "placeholder" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "rows" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "maxlength" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "minlength" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "helperContent" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "messages" : {
+      "type" : "LIST_CONTAINER",
+      "container" : [ ]
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "invalid" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "readonly" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "required" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "hideRequiredIndicator" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "optional" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "autoresize" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "resize" : {
+      "type" : "JSON_LITERAL",
+      "value" : "vertical"
+    },
+    "showCounter" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "name" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "autofocus" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d667a5e769598b2e5c6e92ebe73394f6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -196,7 +412,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"container_1","styles":{}}],
+    "items" : [{"element_id":"textarea_1","styles":{}},{"element_id":"container_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -208,6 +424,18 @@
         <macroponent_dependencies/>
         <name>Home</name>
         <props>[ {
+  "name" : "asd",
+  "label" : "asd",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
   "name" : "name",
   "label" : "Name",
   "fieldType" : "string",
@@ -230,13 +458,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-01 09:41:45</sys_created_on>
         <sys_id>1f3ba9712f5561106b422aa62799b6d2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
         <sys_policy/>
         <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
         <sys_update_name>sys_ux_macroponent_1f3ba9712f5561106b422aa62799b6d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 10:30:57</sys_updated_on>
+        <sys_updated_on>2023-03-01 10:46:50</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

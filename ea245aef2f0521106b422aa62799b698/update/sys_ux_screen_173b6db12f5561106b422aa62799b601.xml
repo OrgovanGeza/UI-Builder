@@ -56,7 +56,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>173b6db12f5561106b422aa62799b601</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Home default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Weekly stand-up" source="x_726438_weekly_0">ea245aef2f0521106b422aa62799b698</sys_package>
@@ -64,7 +64,7 @@
         <sys_scope display_value="Weekly stand-up">ea245aef2f0521106b422aa62799b698</sys_scope>
         <sys_update_name>sys_ux_screen_173b6db12f5561106b422aa62799b601</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-01 10:25:51</sys_updated_on>
+        <sys_updated_on>2023-03-01 10:46:50</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=173b6db12f5561106b422aa62799b601"/>
 </record_update>
